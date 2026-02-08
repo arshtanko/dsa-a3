@@ -19,6 +19,7 @@ private:
 
 public:
   explicit RandomStreamGen(size_t size);
+  RandomStreamGen(size_t size, uint32_t seed);
 
   void generateStream();
 

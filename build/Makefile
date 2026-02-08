@@ -136,12 +136,26 @@ a3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/build
 .PHONY : a3/fast
 
+#=============================================================================
+# Target rules for targets named hash_test
+
+# Build rule for target.
+hash_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hash_test
+.PHONY : hash_test
+
+# fast build rule for target.
+hash_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/build
+.PHONY : hash_test/fast
+
 HashFuncGen.o: HashFuncGen.cpp.o
 .PHONY : HashFuncGen.o
 
 # target to build an object file
 HashFuncGen.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/HashFuncGen.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/HashFuncGen.cpp.o
 .PHONY : HashFuncGen.cpp.o
 
 HashFuncGen.i: HashFuncGen.cpp.i
@@ -150,6 +164,7 @@ HashFuncGen.i: HashFuncGen.cpp.i
 # target to preprocess a source file
 HashFuncGen.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/HashFuncGen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/HashFuncGen.cpp.i
 .PHONY : HashFuncGen.cpp.i
 
 HashFuncGen.s: HashFuncGen.cpp.s
@@ -158,6 +173,7 @@ HashFuncGen.s: HashFuncGen.cpp.s
 # target to generate assembly for a file
 HashFuncGen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/HashFuncGen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/HashFuncGen.cpp.s
 .PHONY : HashFuncGen.cpp.s
 
 RandomStreamGen.o: RandomStreamGen.cpp.o
@@ -166,6 +182,7 @@ RandomStreamGen.o: RandomStreamGen.cpp.o
 # target to build an object file
 RandomStreamGen.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/RandomStreamGen.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/RandomStreamGen.cpp.o
 .PHONY : RandomStreamGen.cpp.o
 
 RandomStreamGen.i: RandomStreamGen.cpp.i
@@ -174,6 +191,7 @@ RandomStreamGen.i: RandomStreamGen.cpp.i
 # target to preprocess a source file
 RandomStreamGen.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/RandomStreamGen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/RandomStreamGen.cpp.i
 .PHONY : RandomStreamGen.cpp.i
 
 RandomStreamGen.s: RandomStreamGen.cpp.s
@@ -182,7 +200,32 @@ RandomStreamGen.s: RandomStreamGen.cpp.s
 # target to generate assembly for a file
 RandomStreamGen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a3.dir/build.make CMakeFiles/a3.dir/RandomStreamGen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/RandomStreamGen.cpp.s
 .PHONY : RandomStreamGen.cpp.s
+
+hash_test.o: hash_test.cpp.o
+.PHONY : hash_test.o
+
+# target to build an object file
+hash_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/hash_test.cpp.o
+.PHONY : hash_test.cpp.o
+
+hash_test.i: hash_test.cpp.i
+.PHONY : hash_test.i
+
+# target to preprocess a source file
+hash_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/hash_test.cpp.i
+.PHONY : hash_test.cpp.i
+
+hash_test.s: hash_test.cpp.s
+.PHONY : hash_test.s
+
+# target to generate assembly for a file
+hash_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hash_test.dir/build.make CMakeFiles/hash_test.dir/hash_test.cpp.s
+.PHONY : hash_test.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -218,12 +261,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... a3"
+	@echo "... hash_test"
 	@echo "... HashFuncGen.o"
 	@echo "... HashFuncGen.i"
 	@echo "... HashFuncGen.s"
 	@echo "... RandomStreamGen.o"
 	@echo "... RandomStreamGen.i"
 	@echo "... RandomStreamGen.s"
+	@echo "... hash_test.o"
+	@echo "... hash_test.i"
+	@echo "... hash_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -12,6 +12,14 @@ RandomStreamGen::RandomStreamGen(size_t size)
   stream.reserve(size);
 }
 
+RandomStreamGen::RandomStreamGen(size_t size, uint32_t seed)
+    : totalSize(size), rng(seed) {
+  if (size == 0) {
+    throw std::invalid_argument("Stream size must be greater than 0");
+  }
+  stream.reserve(size);
+}
+
 std::string RandomStreamGen::generateRandomString() {
   std::uniform_int_distribution<size_t> lengthDist(1, MAX_STRING_LENGTH);
   size_t length = lengthDist(rng);

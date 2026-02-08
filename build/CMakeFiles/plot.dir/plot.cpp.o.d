@@ -1,5 +1,5 @@
-CMakeFiles/a3.dir/main.cpp.o: \
- /home/artem/programming/algorithms/sem2/contest1/a3/main.cpp \
+CMakeFiles/plot.dir/plot.cpp.o: \
+ /home/artem/programming/algorithms/sem2/contest1/a3/plot.cpp \
  /usr/include/stdc-predef.h \
  /home/artem/programming/algorithms/sem2/contest1/a3/HashFuncGen.h \
  /usr/include/c++/15.2.1/cstdint \
@@ -200,17 +200,7 @@ CMakeFiles/a3.dir/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/codecvt.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/15.2.1/bits/fstream.tcc /usr/include/c++/15.2.1/iomanip \
- /usr/include/c++/15.2.1/locale \
- /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
- /usr/include/c++/15.2.1/ctime \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
- /usr/include/libintl.h \
- /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/15.2.1/bits/locale_conv.h \
- /usr/include/c++/15.2.1/bits/quoted_string.h \
- /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/bits/sstream.tcc \
+ /usr/include/c++/15.2.1/bits/fstream.tcc \
  /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/unordered_set \
  /usr/include/c++/15.2.1/bits/unordered_set.h \
  /usr/include/c++/15.2.1/bits/hashtable.h \

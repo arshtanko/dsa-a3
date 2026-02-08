@@ -11,3 +11,10 @@ add_executable(a3
         RandomStreamGen.h
         HashFuncGen.cpp
         HashFuncGen.h)
+
+add_executable(hash_test
+        hash_test.cpp
+        RandomStreamGen.cpp
+        RandomStreamGen.h
+        HashFuncGen.cpp
+        HashFuncGen.h)

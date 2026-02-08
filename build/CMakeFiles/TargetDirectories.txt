@@ -1,3 +1,4 @@
 /home/artem/programming/algorithms/sem2/contest1/a3/build/CMakeFiles/a3.dir
+/home/artem/programming/algorithms/sem2/contest1/a3/build/CMakeFiles/hash_test.dir
 /home/artem/programming/algorithms/sem2/contest1/a3/build/CMakeFiles/edit_cache.dir
 /home/artem/programming/algorithms/sem2/contest1/a3/build/CMakeFiles/rebuild_cache.dir
