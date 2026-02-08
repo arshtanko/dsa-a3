@@ -1,6 +1,4 @@
 #include "RandomStreamGen.h"
-#include <iomanip>
-#include <iostream>
 #include <stdexcept>
 
 const std::string RandomStreamGen::ALLOWED_CHARS =
